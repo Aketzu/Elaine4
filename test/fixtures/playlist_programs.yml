@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  playlist_id: 
+  program_id: 
+  start_at: 2014-07-23 20:10:02
+
+two:
+  playlist_id: 
+  program_id: 
+  start_at: 2014-07-23 20:10:02

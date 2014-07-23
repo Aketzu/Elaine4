@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @program.year %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @program.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @program.description %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @program.notes %>
+</p>
+
+<p>
+  <strong>Lang:</strong>
+  <%= @program.lang %>
+</p>
+
+<p>
+  <strong>Parent:</strong>
+  <%= @program.parent %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @program.user %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @program.category %>
+</p>
+
+<p>
+  <strong>Do vod:</strong>
+  <%= @program.do_vod %>
+</p>
+
+<p>
+  <strong>Hold release:</strong>
+  <%= @program.hold_release %>
+</p>
+
+<p>
+  <strong>Length:</strong>
+  <%= @program.length %>
+</p>
+
+<p>
+  <strong>Ext path:</strong>
+  <%= @program.ext_path %>
+</p>
+
+<p>
+  <strong>Hidden:</strong>
+  <%= @program.hidden %>
+</p>
+
+<p>
+  <strong>Filename:</strong>
+  <%= @program.filename %>
+</p>
+
+<p>
+  <strong>Vod status:</strong>
+  <%= @program.vod_status %>
+</p>
+
+<%= link_to 'Edit', edit_program_path(@program) %> |
+<%= link_to 'Back', programs_path %>

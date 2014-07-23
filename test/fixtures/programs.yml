@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  year: 1
+  title: MyString
+  description: MyText
+  notes: MyText
+  lang: MyString
+  parent_id: 
+  user_id: 
+  category: MyString
+  do_vod: false
+  hold_release: false
+  length: 1
+  ext_path: MyString
+  hidden: false
+  filename: MyString
+  vod_status: 1
+
+two:
+  year: 1
+  title: MyString
+  description: MyText
+  notes: MyText
+  lang: MyString
+  parent_id: 
+  user_id: 
+  category: MyString
+  do_vod: false
+  hold_release: false
+  length: 1
+  ext_path: MyString
+  hidden: false
+  filename: MyString
+  vod_status: 1

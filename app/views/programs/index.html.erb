@@ -1,0 +1,53 @@
+<h1>Listing programs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Notes</th>
+      <th>Lang</th>
+      <th>Parent</th>
+      <th>User</th>
+      <th>Category</th>
+      <th>Do vod</th>
+      <th>Hold release</th>
+      <th>Length</th>
+      <th>Ext path</th>
+      <th>Hidden</th>
+      <th>Filename</th>
+      <th>Vod status</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @programs.each do |program| %>
+      <tr>
+        <td><%= program.year %></td>
+        <td><%= program.title %></td>
+        <td><%= program.description %></td>
+        <td><%= program.notes %></td>
+        <td><%= program.lang %></td>
+        <td><%= program.parent %></td>
+        <td><%= program.user %></td>
+        <td><%= program.category %></td>
+        <td><%= program.do_vod %></td>
+        <td><%= program.hold_release %></td>
+        <td><%= program.length %></td>
+        <td><%= program.ext_path %></td>
+        <td><%= program.hidden %></td>
+        <td><%= program.filename %></td>
+        <td><%= program.vod_status %></td>
+        <td><%= link_to 'Show', program %></td>
+        <td><%= link_to 'Edit', edit_program_path(program) %></td>
+        <td><%= link_to 'Destroy', program, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Program', new_program_path %>
